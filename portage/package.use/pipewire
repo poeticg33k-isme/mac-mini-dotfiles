@@ -1,0 +1,6 @@
+media-video/pipewire sound-server
+media-video/pipewire screencast
+media-video/pipewire extra sound-server pipewire-alsa
+media-video/pipewire extra sound-server pulseaudio
+media-video/pipewire sound-server extra
+media-video/pipewire gstreamer

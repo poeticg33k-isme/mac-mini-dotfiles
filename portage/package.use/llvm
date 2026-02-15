@@ -1,0 +1,17 @@
+# Disable 32-bit support to simplify recovery
+llvm-core/llvm -abi_x86_32
+llvm-core/clang -abi_x86_32
+llvm-runtimes/compiler-rt -abi_x86_32
+llvm-runtimes/libcxx -abi_x86_32
+llvm-runtimes/libcxxabi -abi_x86_32
+
+# Set targets to keep the build fast
+llvm-core/llvm llvm_targets_X86 llvm_targets_BPF
+
+#llvm-core/llvm -abi_x86_32
+#llvm-core/clang -abi_x86_32
+#llvm-core/llvm -abi_x86_32
+#llvm-core/clang -abi_x86_32
+#llvm-core/llvm-common -abi_x86_32
+#llvm-runtimes/compiler-rt -abi_x86_32
+#llvm-runtimes/clang-runtime -abi_x86_32

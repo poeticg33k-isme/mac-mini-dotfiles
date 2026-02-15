@@ -1,0 +1,22 @@
+>=dev-qt/qtbase-6.10.2 X
+>=gui-libs/gtk-4.20.3-r2 X
+>=media-libs/libepoxy-1.5.10-r3 X
+>=x11-base/xorg-server-21.1.21 xvfb
+>=x11-libs/libxkbcommon-1.13.1 X
+>=x11-libs/pango-1.57.0 X
+dev-cpp/cairomm X
+dev-cpp/gtkmm X wayland
+dev-qt/qtbase gui
+dev-qt/qtbase gui wayland opengl
+dev-qt/qtgui wayland
+media-sound/amberol X
+x11-libs/cairo X wayland
+x11-libs/gtk+ X wayland
+x11-libs/libfm-qt X
+x11-misc/pcmanfm-qt X
+# required by dev-libs/libxml2-2.15.1::gentoo[icu]
+# required by x11-libs/libxkbcommon-1.13.1::gentoo
+# required by x11-libs/gtk+-3.24.51::gentoo[wayland]
+# required by x11-themes/adwaita-icon-theme-legacy-46.2::gentoo
+# required by x11-themes/adwaita-icon-theme-49.0::gentoo
+>=dev-libs/icu-78.2 abi_x86_32

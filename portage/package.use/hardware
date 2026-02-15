@@ -1,0 +1,12 @@
+# Enable Video4Linux for the FaceTime HD camera
+media-video/bcwc-pcie v4l
+media-libs/libv4l v4l
+
+# # Broadcom Wi-Fi and Bluetooth firmware support
+net-wireless/broadcom-sta-dkms
+net-wireless/wireless-tools
+net-wireless/bluez-utils extra-profiles
+
+# Power management and sensors
+sys-power/upower
+sys-apps/lm-sensors

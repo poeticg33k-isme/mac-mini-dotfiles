@@ -1,0 +1,7 @@
+>=llvm-core/llvm-21
+>=llvm-core/clang-21
+>=llvm-core/lld-21
+>=dev-util/spirv-llvm-translator-21
+>=llvm-runtimes/compiler-rt-21
+>=llvm-runtimes/libunwind-21
+

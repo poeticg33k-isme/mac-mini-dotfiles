@@ -1,0 +1,7 @@
+# Unmask the Hyprland suite from the main tree/overlay
+gui-wm/hyprland
+gui-libs/hyprland-qt-support
+gui-libs/hyprutils
+gui-libs/hyprwayland-scanner
+gui-libs/aquamarine
+dev-cpp/tomlplusplus

@@ -1,0 +1,8 @@
+# Pipewire as the primary sound server
+media-video/pipewire sound-server extra-formats
+media-libs/libpng
+media-libs/libjpeg-turbo
+media-libs/libglvnd X
+media-video/mpv vaapi wayland -X
+dev-libs/boost icu
+gui-libs/gtk X

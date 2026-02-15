@@ -1,0 +1,9 @@
+app-alternatives/bzip2 pbzip2 -lbzip2 -reference
+dev-lang/vala vapigen
+dev-qt/qtbase gui wayland
+dev-qt/qtgui wayland
+app-text/xmlto text
+media-libs/mesa X
+dev-libs/icu -abi_x86_32
+dev-libs/libxml2 -abi_x86_32
+x11-libs/libxkbcommon -abi_x86_32

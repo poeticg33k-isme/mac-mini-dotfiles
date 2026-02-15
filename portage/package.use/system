@@ -1,0 +1,9 @@
+net-misc/networkmanager bluetooth connection-sharing nss psl
+net-dns/dnsmasq script
+
+# Tooling and Dev
+app-editors/vim vim-syntax
+dev-lang/vala vapigen
+dev-libs/glib introspection
+sys-apps/dbus
+sys-auth/polkit

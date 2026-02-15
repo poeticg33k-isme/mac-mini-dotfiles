@@ -1,0 +1,3 @@
+net-misc/networkmanager audit bluetooth concheck connection-sharing debug gtk-doc introspection iptables iwd libedit modemmanager nbft nftables nss ofono ovs policykit ppp psl resolvconf selinux teamd test tools vala wext wifi elogind dhclient syslog test
+net-libs/libnma vala
+net-misc/libteam teamd

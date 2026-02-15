@@ -1,0 +1,2 @@
+media-libs/mesa llvm_slot_20 -llvm_slot_21
+dev-util/spirv-llvm-translator llvm_slot_20 -llvm_slot_21

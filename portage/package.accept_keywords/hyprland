@@ -1,0 +1,4 @@
+gui-wm/hyprland ~amd64
+gui-libs/hyprland-qt-support ~amd64
+gui-libs/hyprutils ~amd64
+gui-libs/hyprwayland-scanner ~amd64
