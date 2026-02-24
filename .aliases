@@ -1,0 +1,43 @@
+# --- Navigation & Listing ---
+alias ll='ls -laG'
+alias lt='ls -lGtrh'
+alias l.='ls -Ap | grep "^\." | grep -v "/"'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# --- System & Tools ---
+alias vi='vim'
+alias v='vim'
+alias svi='sudo vim'
+alias grep='grep --color=auto'
+alias diff='colordiff'
+alias ff='fastfetch'
+alias dust='sudo dust'
+
+# --- Network & Monitoring ---
+# Using your specific Cellar path for iftop
+alias iftop='sudo /usr/local/Cellar/iftop/2.0pre4/sbin/iftop'
+alias htop='sudo htop'
+
+# --- Package Management ---
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
+
+# --- Tmux Management ---
+alias tl="tmux list-sessions"
+alias ta="tmux attach-session -t"
+alias tk="tmux kill-session -t"
+alias ts="tmux new-session -s"
+alias tmuxpanic="pkill -f tmux"
+
+# --- Config Management (Fast Access) ---
+alias kconf="vi ~/.config/kitty/kitty.conf"
+alias zconf="vi ~/.zshrc"
+alias aconf="vi ~/.aliases"
+
+# --- Shell Reload ---
+alias reload="source ~/.zshrc && echo 'Zsh config reloaded!'"
+
+# --- Safety ---
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
